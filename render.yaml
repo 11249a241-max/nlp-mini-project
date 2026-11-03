@@ -78,12 +78,3 @@ services:
         sync: false
       - key: ALLOW_FACULTY_REGISTRATION
         value: "false"
-
-databases:
-  - name: campusmind-postgres
-    databaseName: campusmind
-    user: campusmind
-    region: oregon
-    plan: 0.5c-1g
-    diskSizeGB: 5
-    ipAllowList: []
