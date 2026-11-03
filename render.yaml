@@ -37,4 +37,3 @@ services:
             user:campusmind
             region: oregon
             plan: free
-            disksizeGB: 1
